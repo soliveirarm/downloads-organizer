@@ -1,2 +1,2 @@
 # Organizador-de-Downloads
-Arquivo é python para organizar sua pasta de downloads
+Arquivo em python para organizar sua pasta de downloads
