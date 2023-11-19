@@ -52,3 +52,6 @@ for file in files:
     if file.endswith(presentation_ff):
         create_folder("Apresentações")
         move_to_folder(file, "Apresentações")
+    if file.endswith((".msi", ".exe")):
+        create_folder("Executáveis")
+        move_to_folder(file, "Executáveis")
