@@ -27,7 +27,7 @@ formats = {
         ".xlsx",
     ),
     "Executáveis": (".msi", ".exe"),
-    "Imagens": (".png", ".jpg", ".jpeg", ".svg", ".gif", ".tif", ".tiff"),
+    "Imagens": (".png", ".jpg", ".jpeg", ".svg", ".gif", ".tif", ".tiff", ".jfif"),
     "Apresentações": (".odp", ".ppt", ".pptx"),
     "Vídeos": (".avi", ".mov", ".flv", ".mp4"),
 }
