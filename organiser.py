@@ -47,6 +47,9 @@ formats = {
         ".rb",
         ".sh",
         ".ts",
+        ".tsx",
+        ".jsx",
+        ".vue",
     ),
     "Stylesheets": (".css", ".sass", ".scss", ".less"),
 }
