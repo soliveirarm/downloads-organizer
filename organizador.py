@@ -30,6 +30,25 @@ formats = {
     "Imagens": (".png", ".jpg", ".jpeg", ".svg", ".gif", ".tif", ".tiff", ".jfif"),
     "Apresentações": (".odp", ".ppt", ".pptx"),
     "Vídeos": (".avi", ".mov", ".flv", ".mp4"),
+    "Programação": (
+        ".js",
+        ".py",
+        ".cmd",
+        ".c",
+        ".bat",
+        ".cs",
+        ".coffee",
+        ".fs",
+        ".go",
+        ".kt",
+        ".lua",
+        ".php",
+        ".pyc",
+        ".rb",
+        ".sh",
+        ".ts",
+    ),
+    "Folhas de Estilo": (".css", ".sass", ".scss", ".less"),
 }
 
 
