@@ -4,8 +4,8 @@ Arquivo em python para organizar sua pasta de downloads
 
 # Download:
 
-- If you're an english speaker, [download this.](https://github.com/oliveirasarah/Organizador-de-Downloads/releases/download/latest/organiser.py)
-- Se você fala português, [baixe esse aqui.](https://github.com/oliveirasarah/Organizador-de-Downloads/releases/download/latest/organizador.py)
+- If you're an english speaker, [download this.](https://github.com/oliveirasarah/Organizador-de-Downloads/releases/download/1.0.1/organiser.py)
+- Se você fala português, [baixe esse aqui.](https://github.com/oliveirasarah/Organizador-de-Downloads/releases/download/1.0.1/organizador.py)
 
 # Requisitos:
 
