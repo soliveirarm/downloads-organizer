@@ -29,7 +29,7 @@ formats = {
     "Executables": (".msi", ".exe"),
     "Images": (".png", ".jpg", ".jpeg", ".svg", ".gif", ".tif", ".tiff", ".jfif"),
     "Presentation": (".odp", ".ppt", ".pptx"),
-    "Video": (".avi", ".mov", ".flv", ".mp4"),
+    "Video": (".avi", ".mov", ".flv", ".mp4", ".mkv", ".wmv", ".3gp"),
     "Coding": (
         ".js",
         ".py",
@@ -57,5 +57,5 @@ formats = {
 
 for file in files:
     for key in formats:
-        if file.endswith(formats[key]):
+        if file.endswith(formats[key]) and file != "organiser.py":
             move_to_folder(file, key)

@@ -29,7 +29,7 @@ formats = {
     "Executáveis": (".msi", ".exe"),
     "Imagens": (".png", ".jpg", ".jpeg", ".svg", ".gif", ".tif", ".tiff", ".jfif"),
     "Apresentações": (".odp", ".ppt", ".pptx"),
-    "Vídeos": (".avi", ".mov", ".flv", ".mp4"),
+    "Vídeos": (".avi", ".mov", ".flv", ".mp4", ".mkv", ".wmv", ".3gp"),
     "Programação": (
         ".js",
         ".py",
@@ -57,5 +57,5 @@ formats = {
 
 for file in files:
     for key in formats:
-        if file.endswith(formats[key]):
+        if file.endswith(formats[key]) and file != "organizador.py":
             move_to_folder(file, key)
