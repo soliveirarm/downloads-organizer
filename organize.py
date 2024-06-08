@@ -1,14 +1,20 @@
-import os
+from os import listdir, makedirs, path
 from pathlib import Path
 
+
 downloads = f"{Path.home()}/Downloads"
-files = os.listdir(downloads)
+files = listdir(downloads)
 
 
 def move_to_folder(filename, folder_name):
-    if not os.path.exists(f"{downloads}/{folder_name}"):
-        os.makedirs(f"{downloads}/{folder_name}")
-    Path(f"{downloads}/{filename}").rename(f"{downloads}/{folder_name}/{filename}")
+    folder_path = f"{downloads}/{folder_name}"
+    old_file_path = f"{downloads}/{filename}"
+    new_file_path = f"{folder_path}/{filename}"
+
+    if not path.exists(folder_path):
+        makedirs(folder_path)
+
+    Path(old_file_path).rename(new_file_path)
 
 
 formats = {
@@ -52,10 +58,12 @@ formats = {
         ".vue",
     ),
     "Stylesheets": (".css", ".sass", ".scss", ".less"),
+    "Encryption": (".ppk", ".pem"),
+    "Data": (".json", ".csv"),
 }
 
 
 for file in files:
-    for key in formats:
-        if file.endswith(formats[key]) and file != "organiser.py":
+    for key, value in formats.items():
+        if file.endswith(value) and file != "organize.py":
             move_to_folder(file, key)
