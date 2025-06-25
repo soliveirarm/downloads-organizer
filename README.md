@@ -1,10 +1,12 @@
-# Downloads Organizer
+# Organize Downloads
 
 Python script to organize your Downloads folder
 
-## Download the file:
+## Download the script 👇🏽:
 
-- [Click here to download the organize.py](https://github.com/soliveirarm/downloads-organizer/releases/download/1.0.2/organize.py)
+<a href="https://github.com/soliveirarm/organize-downloads/releases/download/1.3/organize_downloads.py">
+    <img src="./github/download.png">
+</a>
 
 ## Requirements:
 
